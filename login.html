@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="icon" href="logo.png" />
+    <title>Spotify: Login Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="head">
+        <i class="fa-brands fa-spotify"></i>
+        <h1>Log in to Spotify</h1>
+      </div>
+
+      <div class="option">
+        <div class="botton" id="Google">
+          <i class="fa-brands fa-google"></i> Continue with Google
+        </div>
+        <div class="botton" id="Facebook">
+          <i class="fa-brands fa-facebook"></i>Continue with Facebook
+        </div>
+        <div class="botton" id="Apple">
+          <i class="fa-brands fa-apple"></i>Continue with Apple
+        </div>
+        <div class="botton" id="Phone">
+          <i class="fa-solid fa-phone"></i>Continue with Phone Number
+        </div>
+      </div>
+
+      <div class="input1">
+        <form action="#"></form>
+        <input
+          type="text"
+          class="input"
+          id="email"
+          placeholder="Email or username"
+          required
+        />
+        <input
+          type="password"
+          class="input"
+          id="pass"
+          placeholder="Password"
+          required
+        />
+        <button
+          class="input"
+          id="submit"
+          onclick="window.location.href='index.html'"
+        >
+          Log in
+        </button>
+      </div>
+
+      <div class="footer">
+        <a href="#">Forgot your password?</a>
+        <a href="#" id="one"
+          >Don't have an account? &nbsp;&nbsp; sign up for Spotify</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
