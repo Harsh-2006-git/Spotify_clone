@@ -93,3 +93,12 @@
 #Facebook i {
   color: #4280dd;
 }
+.footer a:hover {
+  scale: 1.1;
+}
+.input1 .input:hover {
+  box-shadow: 0 0 0.2rem white;
+}
+.option .botton:hover {
+  box-shadow: 0 0 0.5rem white;
+}
