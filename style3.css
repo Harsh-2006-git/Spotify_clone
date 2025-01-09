@@ -4,6 +4,10 @@
   color: white;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+.main {
+  background-color: #121212;
+  width: 100%;
+}
 .head {
   display: flex;
   flex-direction: column;
