@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: linear-gradient(90deg, rgb(216, 93, 114), rgb(50, 50, 231));
+}
+button {
+  width: 300px;
+  padding: 0.35rem;
+  height: 40px;
+  background-color: white;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 800;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+#logo {
+  font-size: 2rem;
+  padding: 1rem;
+  font-weight: 800;
+}
+#heading {
+  font-size: 7vh;
+  padding: 1rem;
+  font-weight: 800;
+  font-family: var(--encore-title-font-stack);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+p {
+  display: flex;
+  justify-content: center;
+  font-size: 1.75rem;
+}
+#button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-items: center;
+}
+#head-footer {
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  padding: 1rem;
+}
+.why {
+  background-color: #121212;
+  line-height: 2rem;
+  font-size: 1rem;
+  justify-content: center;
+  display: flex;
+  margin: 0;
+}
+#benifit {
+  font-size: 2rem;
+  margin: 1rem;
+  margin-top: 14vh;
+  display: flex;
+  text-align: center;
+}
+#benifit1 {
+  font-size: 1rem;
+  margin: 1rem;
+  display: flex;
+  margin-left: 2rem;
+}
+#img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #121212;
+  margin-bottom: 0.2rem;
+  margin-top: 0.2rem;
+}
+.plans {
+  background-color: #121212;
+  padding-bottom: 10rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.box {
+  padding: 1.5rem;
+  background-color: #322f2f;
+  border-radius: 0.5rem;
+  margin: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#top {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.box-head {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #b0dc21;
+}
+.plans button {
+  background-color: #b0dc21;
+  font-weight: 900;
+  font-size: 1.5rem;
+  height: 50px;
+}
+#₹ {
+  padding-top: 1rem;
+  font-size: 1.5rem;
+}
+.plans ul {
+  padding-top: 2rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+.term a {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  justify-items: center;
+  padding: 40%;
+}
+button:hover {
+  box-shadow: 0 0 1rem rgb(174, 185, 71);
+}
+.box:hover {
+  box-shadow: 0 0 1rem rgb(174, 185, 71);
+  scale: 1.04;
+}
+#box1 {
+  color: rgb(226, 110, 129);
+}
+#box1-button {
+  background-color: rgb(226, 110, 129);
+}
+#box2 {
+  color: rgb(85, 169, 233);
+}
+#box2-button {
+  background-color: rgb(85, 169, 233);
+}
+#box3 {
+  color: rgb(220, 143, 48);
+}
+#box3-button {
+  background-color: rgb(220, 143, 48);
+}
+#box4 {
+  color: rgb(218, 81, 233);
+}
+#box4-button {
+  background-color: rgb(218, 81, 233);
+}
+.hover:hover {
+  scale: 1.1;
+  box-shadow: 0 0 2rem black;
+}
