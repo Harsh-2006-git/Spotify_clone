@@ -34,7 +34,7 @@ button {
   font-weight: 800;
 }
 #heading {
-  font-size: 7vh;
+  font-size: 2.7rem;
   padding: 1rem;
   font-weight: 800;
   font-family: var(--encore-title-font-stack);
@@ -81,12 +81,14 @@ p {
   margin-left: 2rem;
 }
 #img {
-  width: 100%;
   display: flex;
+  width: 100%; /* Ensures the image container stays within the main div */
   justify-content: center;
   background-color: #121212;
   margin-bottom: 0.2rem;
   margin-top: 0.2rem;
+  max-width: 100%; /* Ensures the image doesn't overflow the container */
+  box-sizing: border-box;
 }
 .plans {
   background-color: #121212;
